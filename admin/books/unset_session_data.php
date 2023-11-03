@@ -1,0 +1,9 @@
+<?php
+session_start();
+unset($_SESSION['success_badd']);
+unset($_SESSION['success_message']);
+unset($_SESSION['error_message']);
+unset($_SESSION['success_messages']);
+unset($_SESSION['error_messages']);
+unset($_SESSION['Failed_msg']);
+?>

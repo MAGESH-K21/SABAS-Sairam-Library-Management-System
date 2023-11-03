@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Half Screen Image</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="flex flex-col lg:flex-row items-center h-screen relative">
+
+  <!-- Image occupies half of the screen -->
+  <div class="w-full lg:w-1/2 h-screen relative">
+    <img src="/image/Group 30.png" alt="Image" class="w-full h-full object-cover">
+  </div>
+
+  <!-- Logo placed on top right -->
+  <div class="hidden lg:block absolute top-0 right-0 p-4">
+    <img src="/image/sabas..png" alt="Logo" class="h-7">
+  </div>
+
+  <div class="lg:w-1/2 h-screen flex flex-col justify-center items-center text-center py-8 lg:py-0">
+    <!-- login placeholders -->
+    <h1 class="font-sans text-3xl sm:text-4xl mb-4 font-medium text-gray-900 shadow-2xl">Admin Login</h1>
+    <br>
+    <input class="placeholder-gray-500 border-b-2 border-gray-300 py-2 px-4 lg:px-8 mb-2 w-full md:w-2/3 lg:w-3/4 font-sans shadow-2xl" placeholder="Username">
+    <br>
+    <input class="placeholder-gray-500 border-b-2 border-gray-300 py-2 px-4 lg:px-8 mb-4 w-full md:w-2/3 lg:w-3/4 font-sans shadow-2xl" placeholder="Password">
+    <br>
+    <br>
+    <div class="flex justify-center">
+      <button style="background-color: rgba(101, 146, 255, 1); background-color: rgba(180, 162, 252, 1); background-color: rgba(127, 95, 255, 1); background-color: rgba(157, 185, 255, 1); background-color: rgba(207, 194, 255, 1); width: 480px;" class="font-sans font-bold text-white border-0 py-2 px-8 rounded text-lg shadow-2xl">Login</button>
+    </div>
+  </div>
+
+</body>
+</html>
