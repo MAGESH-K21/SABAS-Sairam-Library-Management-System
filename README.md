@@ -1,4 +1,4 @@
-# SABAS - Sri Sairam Library Management System
+# SABAS - Sri Sairam College Library Management System
 
 Welcome to SABAS (Sri Sairam Library Management System), an advanced library management solution developed for Sri Sairam Engineering College. SABAS streamlines library operations, ensuring efficient cataloging, circulation, and resource management within our academic community.
 
